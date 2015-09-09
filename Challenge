@@ -1,0 +1,21 @@
+Build a solution so we can deploy new vanilla instances (Windows/Linux) using automation and ensuring predictable deployments. 
+
+The solution must take into consideration we want to know when an instance has been deployed successfully or has failed. 
+
+The vanilla instances must ensure the following is configured/installed:
+1. snmp community string configured for "sendmeinfo"
+2. Anti-virus is installed: name = "antivirus99.msi" or "antivirus.bin" location = je-bucket-99 ; accesskey = 12345 ; secretkey = abcde12345
+3. Ensure the instance is upto date with the latest patches.
+4. Set DNS settings to 10.10.10.10
+5. Join the instance to the domain = domain99.local
+6. Add local admin user
+7. There should be an input parameter to enter the name of the server
+8. Ensure input for server name reflects on build
+9. Tag the instance with name = Env ; Value = Test
+
+
+Tools available:
+- Hipchat
+- Teamcity/Jenkins
+- AWS/Azure
+- Powershell/YAML/JSON/Python
