@@ -1,6 +1,6 @@
 Build a solution so we can deploy new vanilla instances (Windows/Linux) using automation and ensuring predictable deployments. 
 
-The solution must take into consideration we want to know when an instance has been deployed successfully or has failed. 
+The solution must take into consideration that we want to know when an instance has been deployed successfully or has failed. 
 
 The vanilla instances must ensure the following is configured/installed:
 1. snmp community string configured for "sendmeinfo"
